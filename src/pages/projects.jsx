@@ -4,7 +4,7 @@ import '../styles/projects.css'
 
 const Projects = () => {
     return (
-        <body>
+        <>
             <aside>
                 <h1>My hits</h1>
                 <h2>My hits</h2>
@@ -13,7 +13,7 @@ const Projects = () => {
                 <main>
                     <div className='music-cover'>
                         <div className='album-cover'>
-                            <img src='image 8.svg'></img>
+                            <img src='image 8.svg' className='album-img'></img>
                         </div>
                         
                         <div className='description'>
@@ -38,7 +38,7 @@ const Projects = () => {
                 </footer>
             </div>
 
-        </body>
+        </>
     )
 }
 
